@@ -1,0 +1,8 @@
+www:
+  type: nodejs
+  approot: hellonode
+  config:
+    node_version: v0.8.x
+  systempackages:
+    - libfuse2
+    - fuse-utils
